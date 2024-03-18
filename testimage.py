@@ -1,18 +1,15 @@
 from PIL import Image
 import os
 
-for i in os.listdir("C:\\Users\\vpica\Documents\CLBD S1\Data Mining\Projet-Datamining\images"):
-    print(i)
+#afficher les noms des images du dossier images
+dossier_images = "C:\\Users\\vpica\\Documents\\CLBD S1\\Data Mining\\Projet-Datamining\\images"
+for i in os.listdir(dossier_images):
+    image_path = os.path.join(dossier_images, i)
+    print(image_path)
+    image = Image.open(image_path)
+    exif_data = image._getexif()
+    if exif_data:
+        print("L'image contient des données Exif.")
+    else:
+        print("L'image ne contient pas de données Exif.")
 
-# Ouvrir l'image
-image = Image.open("C:\\Users\\vpica\Documents\CLBD S1\Data Mining\Projet-Datamining\images\camel.jpg") #pk il ne retrouve pas l'image camel.jpg??
-
-
-# Récupérer les données Exif
-exif_data = image._getexif()
-
-# Vérifier si les données Exif sont présentes
-if exif_data:
-    print("L'image contient des données Exif.")
-else:
-    print("L'image ne contient pas de données Exif.")
