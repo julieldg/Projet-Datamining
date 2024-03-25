@@ -17,5 +17,99 @@
         "dislikes": [
             9
         ]
+    },
+    "6037fb48-d2c1-4616-8422-b66e122afa04": {
+        "name": "nom",
+        "likes": [
+            "7",
+            "78"
+        ],
+        "dislikes": [
+            "9",
+            "45"
+        ]
+    },
+    "06d3052f-e3cf-40fd-b7a5-c6d30b2a55ef": {
+        "name": "gye",
+        "likes": [
+            "95",
+            "8",
+            "45"
+        ],
+        "dislikes": [
+            "56"
+        ]
+    },
+    "5813bab9-f295-4d1a-a602-87b1d9b11489": {
+        "name": "cc",
+        "likes": [
+            "90",
+            "5"
+        ],
+        "dislikes": [
+            "44"
+        ]
+    },
+    "9ed883c0-a493-40cd-b1b7-30c890a2f4b0": {
+        "name": "gertrude",
+        "likes": [
+            "56",
+            "98",
+            "5",
+            "2"
+        ],
+        "dislikes": [
+            "7"
+        ]
+    },
+    "f5dda1bf-cf03-4ba7-b91d-fd902ad3e50d": {
+        "name": "ou",
+        "likes": [
+            "70",
+            "80",
+            "5"
+        ],
+        "dislikes": [
+            "7"
+        ]
+    },
+    "7ce579cd-9183-4ae2-8bec-ddc59ec4cbc9": {
+        "name": "coucou",
+        "likes": [
+            "5"
+        ],
+        "dislikes": [
+            "7"
+        ]
+    },
+    "eef6e600-64b5-42c1-91a7-60d9aba55e22": {
+        "name": "helo",
+        "likes": [
+            "45",
+            "9"
+        ],
+        "dislikes": [
+            "77"
+        ]
+    },
+    "d7c7bd03-400e-4204-8822-342ac88822ee": {
+        "name": "momo",
+        "likes": [
+            "momo"
+        ],
+        "dislikes": [
+            "54",
+            "3"
+        ]
+    },
+    "50b74be6-d127-4c9f-8629-7fc9f5da1c79": {
+        "name": "coco",
+        "likes": [
+            "56",
+            "34"
+        ],
+        "dislikes": [
+            "67"
+        ]
     }
 }
